@@ -54,12 +54,22 @@
   margin: 40px;
 }
 
-@media screen and(max-width:1050px) {
+@media screen and (max-width: 1200px) {
   .code_mong_cards {
     display: grid;
     gap: 25px;
-    grid-template-columns: 50% 50% ;
-    margin: 40px;
+    grid-template-columns: 50% 50%;
+    margin: 120px;
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .code_mong_cards {
+    display: grid;
+    gap: 25px;
+    grid-template-columns: 100%;
+margin: 0 0 0 100px;
+
   }
 }
 
