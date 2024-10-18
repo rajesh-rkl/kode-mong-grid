@@ -68,8 +68,7 @@
     display: grid;
     gap: 25px;
     grid-template-columns: 100%;
-margin: 0 0 0 100px;
-
+    margin: 0 0 0 100px;
   }
 }
 
